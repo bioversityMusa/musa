@@ -1,9 +1,9 @@
 
 =head1 NAME
 
-cassava - mason components that override SGN mason components to customize the cassavabase interface.
+Musa - mason components that override SGN mason components to customize the musa interface.
 
 =head1 AUTHOR
 
-Lukas Mueller <lam87@cornell.edu>
+Mathieu Rouard <m.rouard@cgiar.org>
 
