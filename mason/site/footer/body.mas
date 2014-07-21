@@ -1,0 +1,83 @@
+<%init>
+	my $feedback_email = eval{ $c->get_conf('email') };
+	$feedback_email = $feedback_email ? qq|<a class="footer" href="mailto:$feedback_email">$feedback_email</a>|
+	                                  : '<span style="font-weight: bold; color: red">[email not set]</b>';
+</%init>
+
+</td></tr></table>
+
+<!-- BEGIN FOOTER-->
+
+<div class="divider"><br /></div>
+
+    <div id="footer" class="white">
+     
+     	<div class="container">
+             
+     	<div class="block first small">
+        	<div class="is-padded">
+            <h3>NextGen </h3>
+            <hr>
+            <p>NextGen  project .... </p>
+            
+            <a class="btn" href="">More</a>
+            </div>
+        
+        </div>
+        
+        <div class="block wide">
+            <div class="is-padded">
+            <h3>Project Partners</h3>	
+            
+             <hr>			 
+             <ul>
+              <li><a class="footer" href="http://ip.cals.cornell.edu">International Programs, College of Agriculture and Life Sciences (IP/CALS), Cornell University</a></li>        
+             </ul>                
+             </div>
+                     
+        </div>
+     
+	    <div class="block small">
+			<div class="is-padded">						
+<!--            <hr>
+            <div class="center">
+            <a class="footer" href="http://www.cornell.edu"><img src="/static/img/cu_logo.png" alt="Cornell University" class="logo"></a>
+            </div>
+-->
+	    <hr>
+	    <div class="center">
+	      <a class="footer" href="http://bti.cornell.edu"><img src="/static/img/bti_logo.png" alt="BTI" class="footer" /></a>
+		</div>
+    
+            </div>            
+					
+		</div>
+        
+        <br style="clear:left;">
+        
+        </div><!-- container -->
+        
+   </div>
+        		
+   <div id="footer" class="earth">
+     
+     	<div class="container">   
+        
+            <div class="is-padded">
+     	
+        	<p class="pull-left"><a href="/contact/form">Contact</a>
+            | <a href="mailto:">Feedback</a></p>        	 
+   			
+            <!-- p class="pull-right">&copy; 2012 The Boyce Thompson Institute for Plant Research</p -->
+            
+            <br style="clear:both;">
+            
+   			</div>
+        </div>
+        
+        </div><!-- container -->
+    
+    </div><!-- footer -->
+
+   <!-- Google Analytics Code moved to header -->
+

@@ -1,0 +1,11 @@
+<%args>
+$schema
+$static_content_path => undef
+$show_accept_dialog => undef
+</%args>
+
+<& /util/import_javascript.mas, classes=>[ "jquery", "jqueryui", "jquery.cookie"] &>
+
+<table cellpadding="0">
+<tr><td><& homepage/iconmenu.mas &></td></tr>
+</table>
